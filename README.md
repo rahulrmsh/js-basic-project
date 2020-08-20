@@ -1,1 +1,1 @@
-# js-basic-project
+# Basic JS Project
