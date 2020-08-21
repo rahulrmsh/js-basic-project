@@ -16,6 +16,7 @@ refreshBtn.onclick = function() {
     document.querySelector('#right').setAttribute('src', 'images/dice' + randomNumber2 + '.png');
 }
 resetBtn.onclick = function() {
+    header.textContent = 'Pick A Side';
     var randomNumber1 = 1;
     document.querySelector('#left').setAttribute('src', 'images/dice' + randomNumber1 + '.png');
     var randomNumber2 = 1;
