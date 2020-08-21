@@ -1,3 +1,7 @@
-var text = prompt("Enter your text here");
-var lengthText = text.length;
-alert("You've typed "+lengthText+" Characters and you have "+(180-lengthText));
+var readyGo = document.querySelector('#refresh');
+readyGo.onclick = function() {
+    var randomNumber1 = Math.floor(Math.random() * 6) + 1;
+    document.querySelector('#left').setAttribute('src', 'images/dice' + randomNumber1 + '.png');
+    var randomNumber2 = Math.floor(Math.random() * 6) + 1;
+    document.querySelector('#right').setAttribute('src', 'images/dice' + randomNumber2 + '.png');
+}
