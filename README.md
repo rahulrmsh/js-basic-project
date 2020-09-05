@@ -1,3 +1,3 @@
 # Dice Roller
-A simple Javascript-based project to settle any issue.
+A simple Javascript-based project to settle any disputes.
 
